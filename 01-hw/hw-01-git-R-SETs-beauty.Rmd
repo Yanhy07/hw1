@@ -1,7 +1,7 @@
 ---
 title: "HW 01 - R, RStudio, Git, and GitHub"
 subtitle: "Meet the toolkit"
-author: "HAOYUANYAN 40283408"
+author: "HAOYUAN YAN 40283408"
 output: 
   tufte::tufte_html:
     css: ../hw.css
@@ -242,7 +242,7 @@ The two lines of code can be read as "Start with the beauty data frame, and then
 beauty %>%
   summarise(no_of_female_professors=sum(female))
 ```
-
+195
 🧶 ✅ ⬆️ *Write your answer in your R Markdown document under Exercise 3. In this exercise you will not only provide a written answer but also include some code and output. You should insert the code in the code chunk provided for you, knit the document to see the output, and then write your narrative for the answer based on the output of this function, and knit again to see your narrative, code, and output in the resulting document. Then, commit your changes with a commit message that says "Completed Exercise 3", and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
 Let's also look how many professors there are at each age range and what is the dominant sex.
